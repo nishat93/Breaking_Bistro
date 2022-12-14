@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+<style>    
+    body{
+        margin: 0;
+        padding: 0;
+        background: url(images/bbm.png);
+        height: 90%;
+        width: 90%;
+        background-size: cover;
+        background-position: bottom;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .loginbox{
+        width: 320px;
+        height: 450px;
+        background: #000000;
+        color: rgb(139, 99, 23);
+        top: 20%;
+        left: 12%;
+        position: absolute;
+        transform: translate(-50% -50%);
+        box-sizing: border-box;
+        padding: 70px 30px;
+    }
+    
+    .avater{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        position: absolute;
+        top: -50px;
+        left: calc(50% - 50px);
+    }
+    
+    h1{
+        margin: 0;
+        padding: 0 0 20px;
+        text-align: center;
+        font-size: 22px;
+    
+    }
+    
+    .loginbox p{
+        margin: 0;
+        padding: 0;
+        font-weight: bold;
+    }
+    
+    .loginbox input{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .loginbox input[type="text"], input[type="password"]
+    {
+        border: none;
+        border-bottom: 1px solid #000000;
+        background: transparent;
+        outline: none;
+        height: 40px;
+        color: #000000;
+        font-size: 16px;
+    }
+    
+    .loginbox input[type="submit"]
+    {
+        border: none;
+        border-radius: 20px;
+        outline: none;
+        height: 40px;
+        background: #8b602f;
+        color: #000000;
+        font-size: 18px;
+    }
+    
+</style>
+    <link rel="stylesheet" type="text/css" href="style.css" media="all">
+    <link rel="shortcut icon" type="image/x-icon" href="icon.png">
+</head>
+<body>
+    <div class="loginbox">
+    <img src="images/bblogo.jpg" class="avater">
+            <h1>Login</h1>
+            <form action="">
+                <p>Email</p>
+                <input type="text" name="email" placeholder="Enter email">
+                <p>Password</p>
+                <input type="password" name="" placeholder="Enter password"><br>
+                <br><input type="submit" name="" value="Login"><br>
+                <a href="#">Forget password?</a><br>
+                <a href="#">Don't have an account?</a><br>
+            </form>
+    </div>
+</body>
+</html>
